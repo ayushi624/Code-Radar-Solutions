@@ -1,16 +1,14 @@
 #include <stdio.h>
 
-char* welcome(char* a) {
-    // char* a;
-    // scanf("%s", &a);
+char* welcome() {
+    char* a;
+    scanf("%s", &a);
     return a;
 }
 
 // int a = welcome()
 
 int main() {
-    char* a;
-    scanf("%s", &a);
-    printf("You entered: %s", welcome(a));
+    printf("You entered: %s", welcome());
     return 0;
 }
