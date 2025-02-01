@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 char* welcome() {
-    char* a;
-    scanf("%s", &a);
+    static char a[100]
+    scanf("%99s", &a);
     return a;
 }
 
