@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 char* welcome() {
-    static char a;
-    scanf("%s", &a);
+    char a;
+    scanf("%c", &a);
     return a;
 }
 
 // int a = welcome()
 
 int main() {
-    printf("You entered: %s", welcome());
+    printf("You entered: %c", welcome());
     return 0;
 }
