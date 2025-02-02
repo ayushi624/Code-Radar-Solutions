@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 char* welcome() {
-    char* a;
+    static char a;
     scanf("%s",&a);
     return a;
 }
