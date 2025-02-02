@@ -8,6 +8,6 @@ int welcome() {
 }
 
 int main() {
-    printf("%d", welcome());
+    printf("Sum: %d", welcome());
     return 0;
 }
