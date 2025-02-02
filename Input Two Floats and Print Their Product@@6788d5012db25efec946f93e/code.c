@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-double welcome() {
-    double a,b,p;
-    scanf("%.2lf", &a);
-    scanf("%.2lf", &b);
+float welcome() {
+    float a,b,p;
+    scanf("%f", &a);
+    scanf("%f", &b);
     p=a*b;
     return p;
 }
 
 int main() {
-    printf("Product: %.2lf", welcome());
+    printf("Product: %.2f", welcome());
     return 0;
 }
