@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 float welcome() {
-    float a,b;
+    float a,b,p;
     scanf("%.2f", &a);
     scanf("%.2f", &b);
-    return a*b;
+    p=a*b;
+    return p;
 }
 
 int main() {
