@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 char* welcome() {
-    char* a,b,c;
+    char* a[50] ,b[50], c[50];
     scanf("%s", &a);
     scanf("%s", &b);
     sprintf(c, "%s and %s", a, b);
@@ -9,6 +9,8 @@ char* welcome() {
 }
 
 int main() {
-    printf("You entered: %s", welcome());
+    char* x[100];
+    welcome(x);
+    printf("You entered: %s", x);
     return 0;
 }
