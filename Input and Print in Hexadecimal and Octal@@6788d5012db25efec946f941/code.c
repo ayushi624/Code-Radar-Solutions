@@ -7,7 +7,8 @@ int welcome() {
 }
 
 int main() {
-    printf("Hexadecimal: %X\n", welcome());
-    printf("Octal: %o\n", welcome());
+    int x = welcome();
+    printf("Hexadecimal: %X\n", x);
+    printf("Octal: %o\n", x);
     return 0;
 }
