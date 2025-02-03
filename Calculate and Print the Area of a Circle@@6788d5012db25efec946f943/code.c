@@ -8,6 +8,6 @@ float welcome() {
 }
 
 int main() {
-    printf("Area: %.1f", welcome());
+    printf("Area: %.2f", welcome());
     return 0;
 }
