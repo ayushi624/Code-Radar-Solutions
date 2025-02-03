@@ -2,7 +2,7 @@
 
 float welcome() {
     float a;
-    scanf("%f", &a)
+    scanf("%f", &a);
     return a;
 }
 
