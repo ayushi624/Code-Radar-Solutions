@@ -10,8 +10,7 @@ char* welcome() {
 }
 
 int main() {
-    char* x[100];
-    welcome(x);
+    char* x= welcome();
     printf("You entered: %s", x);
     return 0;
 }
