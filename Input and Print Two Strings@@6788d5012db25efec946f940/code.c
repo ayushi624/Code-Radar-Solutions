@@ -9,7 +9,7 @@ char* welcome() {
 }
 
 int main() {
-    int x,y = welcome();
-    printf("You entered: %s and %s", x, y);
+    // int x,y = welcome();
+    printf("You entered: %s and %s", welcome(), welcome());
     return 0;
 }
