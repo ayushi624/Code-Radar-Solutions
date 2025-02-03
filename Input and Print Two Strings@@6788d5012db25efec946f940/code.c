@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-char* welcome() {
-    char* a[50] ,b[50], c[50];
+char* welcome(char c[]) {
+    char* a[50] ,b[50];
     scanf("%s", &a);
     scanf("%s", &b);
     sprintf(c, "%s and %s", a, b);
