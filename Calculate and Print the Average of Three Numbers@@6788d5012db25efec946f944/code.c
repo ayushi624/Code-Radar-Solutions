@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int welcome() {
-    int a,b,c,d;
-    scanf("%d %d %d", &a, &b, &c);
+float welcome() {
+    float a,b,c,d;
+    scanf("%f %f %f", &a, &b, &c);
     d= (a+b+c)/3;
     return d;
 }
 
 int main() {
-    printf("%d", welcome());
+    printf("%.2f", welcome());
     return 0;
 }
