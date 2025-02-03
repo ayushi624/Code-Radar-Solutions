@@ -8,6 +8,6 @@ float welcome() {
 }
 
 int main() {
-    printf("%.2f", welcome());
+    printf("Average: %.2f", welcome());
     return 0;
 }
