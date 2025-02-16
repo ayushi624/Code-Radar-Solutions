@@ -2,26 +2,23 @@
 //n=6; 1, 2, 3, 6
 #include <stdio.h>
 int main(){
-    int n;
-    int i;
+    int n,i,c=0;
     scanf("%d", &n);
-    if(n == 0 || n == 1) {
+    if(n>=1){
         printf("Not Prime");
     }
-    else if(n==2) {
-        printf("Prime");
-    }
-    else {
-        for (i=2; i<n; i++) {
-        if(n%i == 0) {
+    else{
+        for(i=2;i<=n/2;i++){
+            if(n%i==0){
+                c++;
+            }
+        }
+        if(c>2){
             printf("Not Prime");
-            break;
         }
-        else {
+        else{
             printf("Prime");
-            break;
         }
-    }
     }
     
     return 0;
