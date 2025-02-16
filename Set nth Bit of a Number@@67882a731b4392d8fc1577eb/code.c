@@ -12,7 +12,7 @@ int main() {
     num = num | (1 << n);
     
     // Print the result
-    printf("New number after setting bit %d: %d\n", n, num);
+    printf("%d\n", num);
     
     return 0;
 }
