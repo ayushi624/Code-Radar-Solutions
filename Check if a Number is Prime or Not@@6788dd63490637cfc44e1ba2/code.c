@@ -2,9 +2,8 @@
 //n=6; 1, 2, 3, 6
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d", &a);
-    int factors[];
+    int n;
+    scanf("%d", &n);
     if(n == 0 || n == 1) {
         printf("Not Prime");
     }
