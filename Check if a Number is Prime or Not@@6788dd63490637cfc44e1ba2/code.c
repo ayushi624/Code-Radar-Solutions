@@ -8,19 +8,18 @@ int main(){
         printf("Not Prime");
     }
     else{
-        for(i=2;i<=n/2;i++){
+        for(i=2;i<=n;i++){
             if(n%i==0){
                 c++;
             }
         }
-        
-    }
-    if(c>2){
+        if(c>2){
             printf("Not Prime");
         }
         else{
             printf("Prime");
         }
+    }
     
     return 0;
 }
