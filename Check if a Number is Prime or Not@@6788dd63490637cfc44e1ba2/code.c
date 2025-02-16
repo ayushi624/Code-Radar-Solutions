@@ -13,13 +13,14 @@ int main(){
                 c++;
             }
         }
-        if(c>2){
+        
+    }
+    if(c>2){
             printf("Not Prime");
         }
         else{
             printf("Prime");
         }
-    }
     
     return 0;
 }
