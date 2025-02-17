@@ -8,7 +8,9 @@ int main() {
     scanf("%c", &ch);
 
     // Check the type of character
-    if (ch= 'a' || 'A' || 'e' || 'E' || 'o' || 'O' || 'u' || 'U' ||'i' || 'I' ){
+    if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || 
+    ch == 'o' || ch == 'O' || ch == 'u' || ch == 'U' || 
+    ch == 'i' || ch == 'I' ){
         printf("Vowel");
     }
     else if (ch >= 'A' && ch <= 'Z') {
