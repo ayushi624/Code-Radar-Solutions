@@ -8,7 +8,7 @@ int main() {
             printf(" ");
         }
         for (j = 1; j <= i; j++) {  // Print stars
-            printf("* ");
+            printf("*");
         }
         printf("\n");  // Move to next line
     }
