@@ -3,14 +3,14 @@ int main() {
     int n, i, j;
     scanf("%d", &n);  // Input the number of rows
 
-    for (i = 1; i <= n; i++) {  // Loop for rows
-        for (j = 1; j <= n - i; j++) {  // Print spaces
+    for(i=1;i<=n;i++){
+        for(j=1;j<=n-i;j++){
             printf(" ");
         }
-        for (j = 1; j <= (2 * i - 1); j++) {  // Print stars
+        for(j=1;j<=2*i-1){
             printf("*");
         }
-        printf("\n");  // Move to next line
+        printf("\n");
     }
 
     return 0;
