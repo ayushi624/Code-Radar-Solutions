@@ -18,6 +18,7 @@ int main() {
         for(j=1;j<=n-i+2;j++){
             printf("*");
         }
+        printf("\n");
     }
     return 0;
 }
