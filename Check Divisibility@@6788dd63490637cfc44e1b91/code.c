@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%d %d", &a, &b);
-    if(a%b==0){
+    int a;
+    scanf("%d", &a);
+    if(a%5=0 && a%11=0){
         printf("Divisible");
     }
     else{
