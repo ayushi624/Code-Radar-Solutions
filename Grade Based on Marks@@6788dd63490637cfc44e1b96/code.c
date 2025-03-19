@@ -6,19 +6,19 @@ int main() {
         printf("Invalid marks\n");
     }
     else if (marks >= 90) {
-        printf("'A'\n");
+        printf("A\n");
     }
     else if (marks<=90 && marks >= 80) {
-        printf("'B'\n");
+        printf("B\n");
     }
     else if (marks<=80 && marks >= 70) {
-        printf("'C'\n");
+        printf("C\n");
     }
     else if (marks<=70 && marks >= 60) {
-        printf("'D'\n");
+        printf("D\n");
     }
     else {
-        printf("'F'\n");
+        printf("F\n");
     }
     return 0;
 }
