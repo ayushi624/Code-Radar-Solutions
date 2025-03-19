@@ -1,13 +1,7 @@
-// Your code here...
 #include <stdio.h>
-
 int main() {
     char ch;
-
-    
     scanf("%c", &ch);
-
-    // Check the type of character
     if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || 
     ch == 'o' || ch == 'O' || ch == 'u' || ch == 'U' || 
     ch == 'i' || ch == 'I' ){
@@ -25,6 +19,5 @@ int main() {
     else {
         printf("Special Character\n", ch);
     }
-
     return 0;
 }
