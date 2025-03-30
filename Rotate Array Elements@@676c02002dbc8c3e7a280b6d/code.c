@@ -7,13 +7,15 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d", &k);
-    for(i=1;i<=k;i++){
-        for(j=0;j<n;j++){
-            if(j==n-1){
-            arr[j]=arr[0];
-            }
-            arr[j] == arr[j+1];
-        }
+    int temp[k];
+    for(i=0;i<k;i++){
+        temp[i]=arr[n-k+i];
+    }
+    for(j=0;j<n;j++){
+        arr[j+k]=arr[j];
+    }
+    for(i=0;i<k;i++){
+        arr[i]=temp[i];
     }
     for(i=0;i<n;i++){
         printf("%d\n", arr[i]);
