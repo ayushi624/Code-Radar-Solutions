@@ -9,10 +9,10 @@ int main(){
     scanf("%d", &k);
     for(i=1;i<=k;i++){
         for(j=0;j<n;j++){
-        arr[j] == arr[j-1];
-        if(j==0){
+            if(j==0){
             arr[j]=arr[n-1];
-        }
+            }
+            arr[j] == arr[j-1];
         }
     }
     for(i=0;i<n;i++){
