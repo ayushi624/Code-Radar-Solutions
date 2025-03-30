@@ -11,8 +11,8 @@ int main(){
     for(i=0;i<k;i++){
         temp[i]=arr[n-k+i];
     }
-    for(j=k-1;j<n;j++){
-        arr[j]=arr[j-2];
+    for(j=0;j<n;j++){
+        arr[j+k]=arr[j];
     }
     for(i=0;i<k;i++){
         arr[i]=temp[i];
