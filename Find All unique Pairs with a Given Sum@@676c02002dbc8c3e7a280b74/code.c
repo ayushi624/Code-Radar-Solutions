@@ -11,7 +11,8 @@ int main() {
         int x = arr[i];
         for(int j = i + 1; j<m; j++){
         if(x + arr[j] == n){
-            printf("%d %d\n", x, arr[j]);
+            // printf("%d %d\n", x, arr[j]);
+            printf("Hello")
             }
         }
 }
