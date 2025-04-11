@@ -10,7 +10,7 @@ int main(){
     s = arr[0];
     for(i=1;i<n;i++){
         if(arr[i]<s){
-            l = arr[i];
+            s = arr[i];
         }
     }
     printf("%d ", s);
