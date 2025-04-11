@@ -12,8 +12,9 @@ int main(){
             l = arr[i];
         }
     }
+    printf("%d", l);
+    
     s = arr[0];
-    printf("%d", s);
     for(i=1;i<n;i++){
         if(arr[i]<s){
             l = arr[i];
