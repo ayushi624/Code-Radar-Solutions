@@ -13,7 +13,7 @@ int main(){
             l = arr[i];
         }
     }
-    printf("% d", s);
+    printf("%d ", s);
     
     l=arr[0];
     for(i=1;i<n;i++){
